@@ -8,6 +8,10 @@ The table has a sorting method, filtering and pagination.
 
 All of the above methods are implemented on the server side through queries to the postgresql database.
 
+The application is wrapped in a docker container, in order to run it locally, make sure that Docker is installed on your computer.
+
+Below are detailed startup instructions
+
 ### Tools
 
  Client:
@@ -28,5 +32,23 @@ All of the above methods are implemented on the server side through queries to t
 - [Docker](https://www.docker.com/)
 
 
+Quick start:
 
+- clone a repository
+
+```
+[  git clone https://github.com/Sergey-Shar/timer_tabata.git](https://github.com/Sergey-Shar/tables-react.git)
+```
+
+- Launching the docker container in the root directory
+
+```
+  docker-compose up -d
+```
+
+- Щpen in the browser
+
+```
+  http://localhost:3000/
+```
 
