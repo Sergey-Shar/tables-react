@@ -24,6 +24,30 @@ Below are detailed startup instructions
 https://github.com/Sergey-Shar/tables-react.git
 ```
 
+- Install dependencies client
+
+```
+cd client
+```
+
+```
+yarn install
+```
+```
+cd ..
+```
+- Install dependencies server
+
+```
+cd server
+```
+```
+npm install
+```
+```
+cd ..
+``
+
 - Start App
 
 ```
