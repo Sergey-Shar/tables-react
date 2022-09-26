@@ -22,10 +22,10 @@ Below are detailed startup instructions
 [  git clone https://github.com/Sergey-Shar/timer_tabata.git](https://github.com/Sergey-Shar/tables-react.git)
 ```
 
-- Launching the docker container in the root directory
+- Start App
 
 ```
-  docker-compose up -d
+ npm run start
 ```
 
 - Open in the browser
