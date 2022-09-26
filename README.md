@@ -12,6 +12,28 @@ The application is wrapped in a docker container, in order to run it locally, ma
 
 Below are detailed startup instructions
 
+
+
+### Quick start:
+
+- clone a repository
+
+```
+[  git clone https://github.com/Sergey-Shar/timer_tabata.git](https://github.com/Sergey-Shar/tables-react.git)
+```
+
+- Launching the docker container in the root directory
+
+```
+  docker-compose up -d
+```
+
+- Щpen in the browser
+
+```
+  http://localhost:3000/
+```
+
 ### Tools
 
  Client:
@@ -32,23 +54,5 @@ Below are detailed startup instructions
 - [Docker](https://www.docker.com/)
 
 
-Quick start:
 
-- clone a repository
-
-```
-[  git clone https://github.com/Sergey-Shar/timer_tabata.git](https://github.com/Sergey-Shar/tables-react.git)
-```
-
-- Launching the docker container in the root directory
-
-```
-  docker-compose up -d
-```
-
-- Щpen in the browser
-
-```
-  http://localhost:3000/
-```
 
