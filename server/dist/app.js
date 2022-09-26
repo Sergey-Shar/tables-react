@@ -5,20 +5,15 @@ const express = require("express");
 const tableRouter = require("./routes/routes");
 const http = require("http");
 const paginate = require("express-paginate");
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT;
 const app = express();
-
-app.use(
-  cors({
+app.use(cors({
     origin: process.env.CLIENT_URL,
-  })
-);
-
+}));
 app.use("/api", tableRouter);
 app.use(express.json());
 app.use(paginate.middleware(5, 50));
-app.use((err: any, res: any) => {
-  res.status(500).send(err.message);
+app.use((err, res) => {
+    res.status(500).send(err.message);
 });
-
 app.listen(PORT, () => console.log(`server started on port: ${PORT}`));
