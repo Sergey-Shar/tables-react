@@ -1,6 +1,6 @@
 # tables-react
 
-### About:
+## About:
 
 This application renders the data received from the server in a table. 
 
@@ -14,7 +14,7 @@ Below are detailed startup instructions
 
 
 
-### Quick start:
+## Quick start:
 
 - clone a repository
 
@@ -28,13 +28,13 @@ Below are detailed startup instructions
   docker-compose up -d
 ```
 
-- Щpen in the browser
+- Open in the browser
 
 ```
   http://localhost:3000/
 ```
 
-### Tools
+## Tools
 
  Client:
 - [React](https://ru.reactjs.org/)
@@ -53,6 +53,7 @@ Below are detailed startup instructions
  Containers:
 - [Docker](https://www.docker.com/)
 
+##
 
 
 
