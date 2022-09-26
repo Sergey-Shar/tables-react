@@ -18,7 +18,7 @@ Below are detailed startup instructions
 
 ## Quick start:
 
-- clone a repository
+- Clone a repository
 
 ```
 https://github.com/Sergey-Shar/tables-react.git
