@@ -27,13 +27,13 @@ https://github.com/Sergey-Shar/tables-react.git
 - Start App
 
 ```
- npm run start
+npm run start
 ```
 
 - Open in the browser
 
 ```
-  http://localhost:3000/
+http://localhost:3000/
 ```
 
 ## Tools:
