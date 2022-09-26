@@ -1,5 +1,7 @@
 # tables-react
 
+![prew](preview.png)
+
 ## About:
 
 This application renders the data received from the server in a table. 
