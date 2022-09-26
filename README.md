@@ -36,6 +36,7 @@ yarn install
 ```
 cd ..
 ```
+
 - Install dependencies server
 
 ```
@@ -46,7 +47,7 @@ npm install
 ```
 ```
 cd ..
-``
+```
 
 - Start App
 
