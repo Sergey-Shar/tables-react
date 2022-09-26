@@ -34,7 +34,7 @@ Below are detailed startup instructions
   http://localhost:3000/
 ```
 
-## Tools
+## Tools:
 
  Client:
 - [React](https://ru.reactjs.org/)
