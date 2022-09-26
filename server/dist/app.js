@@ -5,7 +5,7 @@ const express = require("express");
 const tableRouter = require("./routes/routes");
 const http = require("http");
 const paginate = require("express-paginate");
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 80;
 const app = express();
 app.use(cors({
     origin: process.env.CLIENT_URL,

@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/Sergey-Shar/tables-react/issues"
   },
-  "homepage": "https://github.com/Sergey-Shar/tables-react/"
+  "homepage": "https://github.com/Sergey-Shar/tables-react/",
+  "engines": {
+    "node": "16.17.0"
+  }
 }
