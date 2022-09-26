@@ -21,7 +21,7 @@ Below are detailed startup instructions
 - clone a repository
 
 ```
-[  git clone https://github.com/Sergey-Shar/timer_tabata.git](https://github.com/Sergey-Shar/tables-react.git)
+https://github.com/Sergey-Shar/tables-react.git
 ```
 
 - Start App
