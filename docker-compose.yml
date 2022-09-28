@@ -5,6 +5,7 @@ services:
     container_name: api_server
     ports:
       - '3005:3005'
+    env_file: ./server/.env
     volumes:
       - ./server:/app
       - /app/node_modules
@@ -13,6 +14,7 @@ services:
     container_name: client_frontend
     ports:
       - '3000:3000'
+    env_file: ./client/.env
     volumes:
       - ./client:/app
       - /app/node_modules
