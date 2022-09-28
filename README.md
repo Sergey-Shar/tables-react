@@ -24,31 +24,6 @@ Below are detailed startup instructions
 https://github.com/Sergey-Shar/tables-react.git
 ```
 
-- Install dependencies client
-
-```
-cd client
-```
-
-```
-yarn install
-```
-```
-cd ..
-```
-
-- Install dependencies server
-
-```
-cd server
-```
-```
-npm install
-```
-```
-cd ..
-```
-
 - Start App
 
 ```
@@ -82,5 +57,11 @@ http://localhost:3000/
 
 ##
 
+### Author
 
+[Sergey Sharusha](https://github.com/Sergey-Shar)
+
+### License
+
+This project is open source and available under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
 

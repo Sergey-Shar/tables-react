@@ -1,10 +1,11 @@
 FROM node:16
-ENV NODE_ENV=production
-WORKDIR /app
-COPY package.json ./
-RUN yarn install
-COPY ./ ./
-EXPOSE 3000
-RUN yarn build
 
-CMD ["yarn","start"]
+WORKDIR /app
+COPY package.json .
+COPY yarn.lock .
+RUN yarn install
+COPY . .
+RUN  yarn build
+EXPOSE 3000
+CMD ["yarn", "start"]
+
